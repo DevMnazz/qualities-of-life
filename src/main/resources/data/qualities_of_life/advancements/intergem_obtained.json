@@ -1,0 +1,30 @@
+{
+  "parent": "qualities_of_life:root",
+  "display":  {
+    "icon": {
+      "item": "qualities_of_life:intergem"
+    },
+    "title": {
+      "translate": "advancement.qualities_of_life.intergem_obtained. title"
+    },
+    "description": {
+      "translate":  "advancement.qualities_of_life.intergem_obtained.description"
+    },
+    "frame":  "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_intergem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["qualities_of_life:intergem"]
+          }
+        ]
+      }
+    }
+  }
+}
