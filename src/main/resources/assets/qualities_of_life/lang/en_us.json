@@ -3,8 +3,6 @@
   "tooltip.qualities_of_life.intergem. line1": "Holds enough energy to power the §lPortable Teleporter",
   "tooltip.qualities_of_life.intergem.line2": "Glows with otherworldly energy",
 
-  "advancement.qualities_of_life. root.title": "Qualities of Life",
-  "advancement.qualities_of_life.root.description": "Begin your journey with helpful recipes and items",
-  "advancement.qualities_of_life.intergem_obtained. title": "Interdimensional Discovery! ",
+  "advancement.qualities_of_life.intergem_obtained. title": "Interdimensional Discovery!",
   "advancement.qualities_of_life.intergem_obtained.description": "Obtain an Interdimensional Gem"
 }
