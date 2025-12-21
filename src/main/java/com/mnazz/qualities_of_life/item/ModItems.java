@@ -12,6 +12,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.world.item.BlockItem;
+import com.mnazz.qualities_of_life.block.ModBlocks;
 
 import java.util.List;
 
@@ -35,6 +37,12 @@ public class ModItems {
                     super. appendHoverText(stack, level, tooltipComponents, isAdvanced);
                 }
             });
+
+    public static final RegistryObject<Item> TELEPORTER = ITEMS.register("teleporter",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GEM_CHARGING_STATION_ITEM = ITEMS.register("gem_charging_station",
+            () -> new BlockItem(ModBlocks.GEM_CHARGING_STATION.get(), new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
