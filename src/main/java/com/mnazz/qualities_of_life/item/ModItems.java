@@ -38,9 +38,6 @@ public class ModItems {
                 }
             });
 
-    public static final RegistryObject<Item> TELEPORTER = ITEMS.register("teleporter",
-            () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> GEM_CHARGING_STATION_ITEM = ITEMS.register("gem_charging_station",
             () -> new BlockItem(ModBlocks.GEM_CHARGING_STATION.get(), new Item.Properties()));
 
