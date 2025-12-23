@@ -29,10 +29,10 @@ public class ModItems {
                     return true;
         }
                 public void appendHoverText(ItemStack stack, Level level, List<Component> tooltipComponents, TooltipFlag isAdvanced) {
-                    tooltipComponents.add(Component.translatable("tooltip.qualities_of_life.intergem. line1")
+                    tooltipComponents.add(Component.translatable("tooltip.qualities_of_life.intergem.line1")
                             .withStyle(ChatFormatting.AQUA));
                     tooltipComponents.add(Component.translatable("tooltip.qualities_of_life.intergem.line2")
-                            . withStyle(ChatFormatting. GRAY, ChatFormatting.ITALIC));
+                            .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
 
                     super. appendHoverText(stack, level, tooltipComponents, isAdvanced);
                 }

@@ -1,8 +1,8 @@
 {
   "item.qualities_of_life.intergem": "Interdimensional Gem",
-  "tooltip.qualities_of_life.intergem. line1": "Contains immense interdimensional energy",
+  "tooltip.qualities_of_life.intergem.line1": "Contains immense interdimensional energy",
   "tooltip.qualities_of_life.intergem.line2": "Glows with otherworldly energy",
 
-  "advancement.qualities_of_life.intergem_obtained. title": "Interdimensional Discovery!",
+  "advancement.qualities_of_life.intergem_obtained.title": "Interdimensional Discovery!",
   "advancement.qualities_of_life.intergem_obtained.description": "Obtain an Interdimensional Gem"
 }
