@@ -34,7 +34,7 @@ public class ModItems {
                     tooltipComponents.add(Component.translatable("tooltip.qualities_of_life.intergem.line2")
                             .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
 
-                    super. appendHoverText(stack, level, tooltipComponents, isAdvanced);
+                    super.appendHoverText(stack, level, tooltipComponents, isAdvanced);
                 }
             });
 
