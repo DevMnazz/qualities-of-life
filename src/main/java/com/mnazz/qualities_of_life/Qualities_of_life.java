@@ -1,6 +1,5 @@
 package com.mnazz.qualities_of_life;
 
-import com.mnazz.qualities_of_life.block.ModBlocks;
 import com.mnazz.qualities_of_life.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -53,7 +52,6 @@ public class Qualities_of_life {
 
 
         ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
